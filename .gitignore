@@ -1,0 +1,39 @@
+# Large Binary Models & Runtime Executables (Exceed GitHub 100MB limit)
+*.gguf
+*.bin
+*.safetensors
+assets/models/
+assets/runtime/
+assets/embeddings/
+
+# Local databases and vector stores
+data/chromadb/
+data/debates/
+chromadb/
+*.sqlite3
+*.db
+
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.benchmarks/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Secrets & Environment variables
+.env
+.env.*
+
+# OS & Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
